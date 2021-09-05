@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+#rcorners3 {
+border-style:solid;
+  border-radius:30px;
+  padding: 20px;
+  width: 1000px;
+  height: 120px;
+}
+
+#rcorners4 {
+  border-radius:30px;
+  border-style:solid;
+  border-color:grey;
+  padding: 20px;
+  width: 1000px;
+  height: 170px;
+}
+#rcorners5 {
+  border-radius:30px;
+  border-style:solid;
+  border-color:grey;
+  padding: 20px;
+  width: 1000px;
+  height: 70px;
+}
+#rcorners6 {
+border-style:solid;
+  border-radius:30px;
+  border-color:grey;
+  padding: 20px;
+  width: 1000px;
+  padding: 20px;
+  width: 650px;
+  height:460px;
+}
+#rcorners7 {
+border-style:solid;
+  border-radius:30px;
+  border-color:grey;
+  padding: 20px;
+  width: 1000px;
+  height:35px;
+}
+#rcorners8 {
+border-style:solid;
+  border-radius:30px;
+  border-color:grey;
+  padding: 20px;
+  width: 1000px;
+  height:35px;
+}
+</style>
+
+<title>
+Breast Cancer Detection
+</title>
+<link rel="icon" href="https://www.designmantic.com/blog/wp-content/uploads/2014/10/Abstract-logo-illustration.jpg" type="image/x-icon">
+</head>
+<body style="background-color:#232323;">
+<h1 style="text-align:center;font-family:Colonna MT;color:#DB91AC;"><b><u>
+BREAST CANCER DETECTION USING COMPUTER VISION</b></u>
+</h1>
+<h2 style="font-size:100%;color:#DB91AC"><span><b>OVERVIEW</b></span></h2>
+<p id=rcorners4 style="font-size:120%;color:DarkGrey;">
+Breast cancer is a type of cancer that forms in the cells of the breasts.
+Symptoms of breast cancer include a lump in the breast, bloody discharge from the nipple and changes in the shape or texture of the nipple or breast<br>
+Breast cancer most often begins with cells in the milk-producing ducts.<br> The tumor formed may be malignant or benign. Early detection of malignant tumors can be live saving.
+<br>We have a dataset of images of breast tumors of varying magnification.We use computer vision to identify whether a tumor is malignant or benign, hence finding the likelihood of cancer developing.
+<br>Our objective is to train the machine to help identify the tumor with a reasonable level of accuracy. We are using CNNs to achieve so. 
+</p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b>BUSINESS CASE</b></span></h2>
+<p id=rcorners5 style="font-size:120%;color:DarkGrey;">
+It could be helpful for oncologists in the future, as it could act as a second opinion which is always advantageous.The machine helps you detect tumors faster, and also helps us bypass human error. Also, it could be helpful in detection breast cancer in populations where cancer awareness is low, like in rural areas with lesser access to medical services.
+</p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b>OUT OF SCOPE</b></span></h2>
+<p id=rcorners7 style="font-size:120%;color:DarkGrey;">
+Model not completely optimised for real world applications,our accuracies are fairly high but not high enough for real world applications. We have and accuracy of around 95%, but when it comes to medicine, a 5% error is a lot.</p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b></b></span>TECHNICAL DESIGN</h2>
+<p id=rcorners6 style="font-size:150%;">
+<iframe src="https://drive.google.com/file/d/1Wro40M1h_Ud7-viQ3OwclCJTmPgEu4Z8/preview" width="640" height="480" allow="autoplay"></iframe>
+</p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b></b></span>YOUTUBE VIDEO</h2>
+<p id=rcorners6 style="font-size:150%;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0U2gSPKzd84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b>ASSUMPTIONS</b></span></h2>
+<p id=rcorners8 style="font-size:120%;color:DarkGrey;">For this problem, we are taking the assumption that all images provided are clear, colour images of either 40x, 100x, 200x, or 400x magnification.<br></p>
+<h2 style="font-size:100%;color:#DB91AC"><span><b>RESOURCES AND LINKS</b></span></h2>
+<p id=rcorners3 style="font-size:120%;color:DarkGrey;">
+Dataset from: <a href=https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/=>Breast Cancer Histopathological Database (BreakHis)</a>
+<br>Libraries used: OpenCV, TensorFlow, SciKit, Numpy, Pandas, MatPlotlib etc.
+<br>Link of project (GitHub) :  <a href= https://github.com/pallavi-sriv/Hack-O-Uplift>GitHub Link</a>
+<br>Colab link : <a href= https://colab.research.google.com/drive/128N9I9RZ-2PCc8mxUxeROXJZ3646px3m?usp=sharing>Colab Link</a>
+<br>Video link: <a href= https://youtu.be/0U2gSPKzd84>YouTube Link</a>
+<br>Cancer information from: <a href=https://www.mayoclinic.org/diseases-conditions/breast-cancer/symptoms-causes/syc-20352470>Mayo Clinic</a>
+</body>
+</html>
