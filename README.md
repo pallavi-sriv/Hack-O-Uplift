@@ -10,7 +10,7 @@ Our objective is to train the machine to help identify the tumor with a reasonab
 It could be helpful for oncologists in the future, as it could act as a second opinion which is always advantageous.The machine helps you detect tumors faster, and also helps us bypass human error. Also, it could be helpful in detection breast cancer in populations where cancer awareness is low, like in rural areas with lesser access to medical services. <br>
 -Libraries used: OpenCV, TensorFlow, SciKit, Numpy, Pandas, MatPlotlib etc.<br>
 -Dataset from: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis Breast Cancer Histopathological Database (BreakHis) <br>
--YouTube Video link: <br>
+-YouTube Video link: https://youtu.be/0U2gSPKzd84 <br>
 About the CNN model:
 
 Model: "sequential_1"
